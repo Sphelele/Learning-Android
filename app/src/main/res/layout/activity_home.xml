@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/lblDisplay"
+        android:layout_width="210dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:text="Welcom to my app"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="213dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="152dp"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp"
+        android:text="Search" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="211dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="232dp"
+        android:text="Please Enter Username to Search"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lblDisplayUser"
+        android:layout_width="224dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="133dp"
+        android:textSize="18sp" />
+
+    <SearchView
+        android:id="@+id/txtSearch"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="208dp" />
+
+    <TextView
+        android:id="@+id/txtlogout"
+        android:layout_width="99dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:text="logout"
+        android:textSize="18sp" />
+
+</RelativeLayout>
